@@ -1,56 +1,37 @@
 {
   "main": {
-    "id": "00429cca92dcd438",
+    "id": "3ab556af99c84a67",
     "type": "split",
     "children": [
       {
-        "id": "96c90b7877df8558",
+        "id": "799a00e0a9676631",
         "type": "tabs",
         "children": [
           {
-            "id": "fd69ae5f994769f6",
+            "id": "13056254d45ec573",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
-            }
-          },
-          {
-            "id": "e59028ffd8e9e6ca",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a60e9d2b4276257c",
+    "id": "b2c3a3416942d5d5",
     "type": "split",
     "children": [
       {
-        "id": "476a5038da950fe6",
+        "id": "31e5064a0179ab0d",
         "type": "tabs",
         "children": [
           {
-            "id": "69a67825267a3cfa",
+            "id": "1b2dcf0e7e60592c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +44,7 @@
             }
           },
           {
-            "id": "0045ec26c06e98e1",
+            "id": "8f52e34b7ceca38c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,42 +61,13 @@
             }
           },
           {
-            "id": "fd6587ae35d485dc",
+            "id": "658ff76088d8f9da",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "6c6f8017fb027f3d",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "6de821df2cd48f3d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
             }
           }
         ]
@@ -125,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "07df963cba34a3da",
+    "id": "c7e24637962d9d48",
     "type": "split",
     "children": [
       {
-        "id": "58e408a723afb2f6",
+        "id": "857e78e80916cba8",
         "type": "tabs",
         "children": [
           {
-            "id": "2e2b8de31b35973a",
+            "id": "004db77b3e429dec",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -151,7 +103,7 @@
             }
           },
           {
-            "id": "0c89077518ad4ed4",
+            "id": "6146567c07d5c2f3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -164,7 +116,36 @@
             }
           },
           {
-            "id": "396837419feb92e8",
+            "id": "769afa3826852c0f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "06ff682804e2d893",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "021f4b05763588d8",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -176,39 +157,25 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "d7eae418c5eae447",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": true,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "bases:Create new base": true,
-      "obsidian-git:Open Git source control": false
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "e59028ffd8e9e6ca",
-  "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "made by me.md"
-  ]
+  "active": "13056254d45ec573",
+  "lastOpenFiles": []
 }
