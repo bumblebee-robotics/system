@@ -1,0 +1,1 @@
+![[Manipulator_Module_TRIZ.xlsx]]
