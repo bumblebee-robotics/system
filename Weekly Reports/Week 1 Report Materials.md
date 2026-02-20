@@ -11,3 +11,6 @@
 ### TRIZ
 - [[Manipulator_Module_TRIZ.xlsx]]
 - [[TRIZ Worksheet v2.xlsx]]
+## Deliverables
+- [[Responsibility Sheet]]
+- [[BOMs]]
