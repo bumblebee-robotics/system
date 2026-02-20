@@ -3,7 +3,7 @@
 
 - ​**[Simulate and Control Robot Arm with MATLAB and Simulink Tutorial (Part I)](https://www.google.com/search?q=https://youtu.be/xpA8TKEMpMk)** A tutorial on importing a SolidWorks robotic arm assembly into MATLAB/Simulink using Simscape Multibody to create a physical simulation.
 - ​**[Simulate and Control a 4-DOF Robot Arm with MATLAB and Simscape Multibody](https://www.google.com/search?q=https://youtu.be/Ds4LkNEu82U)** A follow-up or alternative guide focusing on the simulation and control architecture of a 4-Degree-of-Freedom robotic arm in Simscape.
-- ​**[The Full Modeling and Simulation of a Robotic Arm using MATLAB Simscape Multibody and Solidworks](https://www.google.com/search?q=https://youtu.be/pDiwAA1cnb0)** A comprehensive, hour-long walkthrough covering the entire pipeline—from CAD modeling in SolidWorks to inverse/forward kinematics and PID control in MATLAB/Simulink.
+- ​**[The Full Modeling and Simulation of a Robotic Arm using MATLAB Simscape Multibody and Solidworks](https://www.google.com/search?q=https://youtu.be/pDiwAA1cnb0)** **A comprehensive, hour-long walkthrough covering the entire pipeline—from CAD modeling in SolidWorks to inverse/forward kinematics and PID control in MATLAB/Simulink.**
 - ​**[6-DoF Robot Elbow - A Tutorial in MATLAB and Simulink](https://www.google.com/search?q=https://youtu.be/XD0HWVOz4N8)** A detailed, 50-minute interface control tutorial on simulating a 6-Degree-of-Freedom elbow robotic manipulator using MATLAB and Simulink.
 
 ### ​🔌 Hardware Interfacing & Control
