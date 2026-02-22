@@ -20,6 +20,10 @@
 		- [[Arm v1]]
 		- [[Arm v2]]
 	- [[Arm Power System Architecture.pdf|Arm Electrical and Electronics Architecture]]
+	- [[power block diagram]]
+	- [[Embedded block diagram]]
+	- [[Autonomous block diagram]]
+	- 
 - Mobile Robot
 	- [[Mobile Robot FBD.pdf]]
 	- [[Mobile Robot Electrical & Electronics Subsystem Architecture.pdf]]
