@@ -1,0 +1,4 @@
+- Gripper
+	- Common gearbox
+	- Assembly
+- Servo motor selection and control model implementation

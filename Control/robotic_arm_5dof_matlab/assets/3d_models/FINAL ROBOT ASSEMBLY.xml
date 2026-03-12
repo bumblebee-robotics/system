@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/27/26||04:45:39" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="FINAL ROBOT ASSEMBLY" uid="FINAL ROBOT ASSEMBLY" version="2113">
+<AssemblyFile name="FINAL ROBOT ASSEMBLY.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ARM 02-1" uid="ARM 02-1" entityUid="ARM 02*:*Default">
+<Transform>
+<Rotation>-0.98102885150408148 0.02363716107914143 -0.19241537654954169 0.024087266088323591 0.99970985971550275 -1.120927186451039e-16 0.19235954909744796 -0.0046347603744338467 -0.98131357010249176</Rotation>
+<Translation>-0.0086410811378084141 0.32467765210779598 0.10380844922446411</Translation>
+</Transform>
+</Instance>
+<Instance name="BASE OF ROBOTIC ARM-1" uid="BASE OF ROBOTIC ARM-1" grounded="true" entityUid="BASE OF ROBOTIC ARM*:*Default">
+<Transform>
+<Rotation>1 1.1064361715556143e-09 2.9534707939548708e-12 -1.106436171556255e-09 1 2.1694934123801973e-10 -2.9534708085632253e-12 -2.1694934124128756e-10 1</Rotation>
+<Translation>0.097745929438753681 0.12161674777287926 0.090081443799824634</Translation>
+</Transform>
+</Instance>
+<Instance name="ARM 01-1" uid="ARM 01-1" entityUid="ARM 01*:*Default">
+<Transform>
+<Rotation>-0.8550178222597935 -0.19241537654954163 0.4815816093720961 -0.49075201244980043 2.0606068986412099e-16 -0.87129929546423412 0.16765138202410088 -0.98131357010249176 -0.09442823326797388</Rotation>
+<Translation>0.087944165317695527 0.21929674778856287 0.11238421306848699</Translation>
+</Transform>
+</Instance>
+<Instance name="ARM 03-1" uid="ARM 03-1" entityUid="ARM 03*:*Default">
+<Transform>
+<Rotation>0.015755647860211601 -0.98102885150408103 0.19322047530499581 0.99887505092136764 0.024087266088322457 0.040846496290696165 -0.044725744346410856 0.19235954909744893 0.98030475448387255</Rotation>
+<Translation>-0.065296231589362541 0.33634057331399886 0.1091044427898467</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MICRO 9G-1" uid="SERVO MOTOR MICRO 9G-1" entityUid="SERVO MOTOR MICRO 9G*:*Default">
+<Transform>
+<Rotation>-0.023637161079140184 -0.98102885150408115 -0.19241537654954219 -0.99970985971550286 0.024087266088322318 -3.8944542035679319e-16 0.0046347603744339395 0.19235954909744846 -0.98131357010249165</Rotation>
+<Translation>-0.03613336582465005 0.32552674590081943 0.10359438748500173</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MG996R-1" visible="false" uid="SERVO MOTOR MG996R-1" entityUid="SERVO MOTOR MG996R*:*Default">
+<Transform>
+<Rotation>2.9537205941354126e-12 1.1064361560270761e-09 -1.0000000000000002 2.1694934147954355e-10 1 1.106436156027717e-09 1.0000000000000002 -2.1694934148281161e-10 2.9537206087437704e-12</Rotation>
+<Translation>0.097745929449848348 0.13161674777510302 0.10033144379765514</Translation>
+</Transform>
+</Instance>
+<Instance name="WAIST-1" uid="WAIST-1" entityUid="WAIST*:*Default">
+<Transform>
+<Rotation>-0.98131357010249165 1.1064361715556145e-09 -0.19241537654954166 1.12750521878677e-09 1 0 0.19241537654954166 -2.1694934124128756e-10 -0.98131357010249165</Rotation>
+<Translation>0.097745929502263115 0.17901674777287924 0.090081443787371734</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MG996R-2" uid="SERVO MOTOR MG996R-2" entityUid="SERVO MOTOR MG996R*:*Default">
+<Transform>
+<Rotation>0.69394125268625539 0.19241537654954247 -0.69384570380418731 -0.70705809533615205 4.0133790156955396e-16 -0.70715546368504623 -0.13606758482402423 0.98131357010249154 0.13604884965650824</Rotation>
+<Translation>0.081895851401718692 0.21204940231137784 0.043867672129034654</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MICRO 9G-2" uid="SERVO MOTOR MICRO 9G-2" entityUid="SERVO MOTOR MICRO 9G*:*Default">
+<Transform>
+<Rotation>0.98102885150408115 -0.19322047530499553 0.015755647860213377 -0.024087266088324337 -0.040846496290696595 0.99887505092136741 -0.19235954909744857 -0.98030475448387255 -0.044725744346411633</Rotation>
+<Translation>-0.084950434373118333 0.33748648822845106 0.12777291064191862</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MG996R-4" uid="SERVO MOTOR MG996R-4" entityUid="SERVO MOTOR MG996R*:*Default">
+<Transform>
+<Rotation>-0.98102885150408137 0.19241537654954205 0.023637161079142262 0.024087266088324361 -2.5219921131025278e-16 0.99970985971550286 0.19235954909744832 0.98131357010249176 -0.0046347603744336403</Rotation>
+<Translation>0.0069376147091385065 0.3240995577216762 0.058565438243882224</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER ASSEMBLY-1" uid="GRIPPER ASSEMBLY-1" entityUid="GRIPPER ASSEMBLY" rigid="true">
+<Transform>
+<Rotation>-0.19322047530499509 0.28184857615121944 -0.93980169612766817 -0.040846496290696484 -0.95933238816226685 -0.27930795327676555 -0.98030475448387266 -0.015580408993732938 0.19687518683648811</Rotation>
+<Translation>-0.13213260772989927 0.37235378574707695 0.12740324135100647</Translation>
+</Transform>
+<Instance name="GEAR 1-1" uid="GEAR 1-1" entityUid="GEAR 1*:*Default">
+<Transform>
+<Rotation>0.69255589803551476 -0.72136421320732413 -5.5511151231257827e-16 -1.8214596497756474e-15 -9.9746599868666408e-16 -1.0000000000000002 0.72136421320732425 0.69255589803551465 -1.9728142730546239e-15</Rotation>
+<Translation>0.047775256413373449 0.063198504347354245 0.0083304954116746599</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MICRO 9G-1" uid="SERVO MOTOR MICRO 9G-1" entityUid="SERVO MOTOR MICRO 9G*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.052875256413373435 0.030648504347354222 0.0083304954116746599</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER LINK-2" uid="GRIPPER LINK-2" entityUid="GRIPPER LINK*:*Default">
+<Transform>
+<Rotation>-0.69221398357496633 6.7480743215497796e-16 0.72169231736473138 -1.4918621893400541e-16 0.99999999999999989 -1.1015494072452725e-15 -0.72169231736473138 -8.795048023202412e-16 -0.69221398357496622</Rotation>
+<Translation>0.060333889904195373 0.071698504347354197 0.050702957249984026</Translation>
+</Transform>
+</Instance>
+<Instance name="GEAR 2-1" uid="GEAR 2-1" entityUid="GEAR 2*:*Default">
+<Transform>
+<Rotation>-0.77861267856449745 0.62750481813179637 1.6375789613221059e-15 2.4338170367954604e-15 3.9725167599868882e-16 0.99999999999999989 0.62750481813179626 0.77861267856449734 -1.8227606923826301e-15</Rotation>
+<Translation>0.020875256413373414 0.059198504347354131 0.0083304954116746738</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER LINK-1" uid="GRIPPER LINK-1" entityUid="GRIPPER LINK*:*Default">
+<Transform>
+<Rotation>0.77036397724057115 6.8206702692684177e-16 0.63760437778460122 -1.085936895961481e-15 0.99999999999999989 2.4231270151429039e-16 -0.63760437778460133 -8.7906709533731755e-16 0.77036397724057104</Rotation>
+<Translation>0.0049939731189170555 0.071698504347354253 0.048096231122995908</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER LINK-3" uid="GRIPPER LINK-3" entityUid="GRIPPER LINK*:*Default">
+<Transform>
+<Rotation>0.77036397724057248 0 0.63760437778459989 0 1 0 -0.63760437778459989 0 0.77036397724057259</Rotation>
+<Translation>0.0049939731189169723 0.050198504347354178 0.048096231122995894</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER-1" uid="GRIPPER-1" entityUid="GRIPPER*:*Default">
+<Transform>
+<Rotation>-0.39715728971675396 0 -0.91775055828086682 0 1 0 0.91775055828086682 0 -0.39715728971675396</Rotation>
+<Translation>0.069071350277962476 0.06319850434735419 0.030512444967806723</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER BASE-1" uid="GRIPPER BASE-1" grounded="true" entityUid="GRIPPER BASE*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015875256413373395 0.054198504347354182 0.033330495411674654</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER-2" uid="GRIPPER-2" entityUid="GRIPPER*:*Default">
+<Transform>
+<Rotation>0.3664116623364011 0 0.93045284335310352 0 -1 0 0.93045284335310341 0 -0.36641166233640104</Rotation>
+<Translation>-0.0030670834524832713 0.071698504347354308 0.027626268569227591</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER LINK-4" uid="GRIPPER LINK-4" entityUid="GRIPPER LINK*:*Default">
+<Transform>
+<Rotation>0.69221398357497632 0 -0.72169231736472217 0 1 0 0.72169231736472206 0 0.6922139835749761</Rotation>
+<Translation>0.038875256413371834 0.050198504347354123 0.028330495411676829</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE OF ROBOTIC ARM-1</Uid>
+</InstancePath>
+<Position>0 0.05599999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WAIST-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>BASE OF ROBOTIC ARM-1</Uid>
+</InstancePath>
+<Position>0 0.05599999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-1</Uid>
+</InstancePath>
+<Position>-0.010250000000000009 0.047399999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE OF ROBOTIC ARM-1</Uid>
+</InstancePath>
+<Position>0.012999999999999998 0.037999999999999964 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-1</Uid>
+</InstancePath>
+<Position>-0.027300000000000019 0.027999999999999997 0.0092500000000000221</Position>
+<Axis>0 -1 3.7507534629673688e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE OF ROBOTIC ARM-1</Uid>
+</InstancePath>
+<Position>-0.0050000000000000044 0.03079999999999998 -0.013749999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-1</Uid>
+</InstancePath>
+<Position>-0.024000000000000021 0.023599999999999982 0.0050000000000000183</Position>
+<Axis>0 1 1.8753767301723116e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-1</Uid>
+</InstancePath>
+<Position>-0.010250000000000009 0.047399999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WAIST-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WAIST-1</Uid>
+</InstancePath>
+<Position>0.013909999999999992 0.04028000000000001 0.018000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-2</Uid>
+</InstancePath>
+<Position>-0.010249999999999995 0.047399999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WAIST-1</Uid>
+</InstancePath>
+<Position>0.027166168216462935 0.046465100404597504 0.022000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-2</Uid>
+</InstancePath>
+<Position>-0.024000000000000007 0.023599999999999996 0.0049999999999999489</Position>
+<Axis>0 1 1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WAIST-1</Uid>
+</InstancePath>
+<Position>0.00065917458046726995 0.011860000000000009 0.018000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-2</Uid>
+</InstancePath>
+<Position>-0.027300000000000005 0.030399999999999983 0.0092499999999999527</Position>
+<Axis>0 1 -2.4980018054066022e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ARM 02-1</Uid>
+</InstancePath>
+<Position>-0.048000000000000015 0.0050000000000000044 0.0019999999999999879</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-4</Uid>
+</InstancePath>
+<Position>-0.024000000000000011 0.023600000000000003 0.0050000000000000044</Position>
+<Axis>0 1.0000000000000002 2.3592239273284576e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 02-1</Uid>
+</InstancePath>
+<Position>0 0 0.010999999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-4</Uid>
+</InstancePath>
+<Position>-0.027300000000000012 0.03039999999999999 0.009250000000000036</Position>
+<Axis>0 1.0000000000000002 -1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ARM 02-1</Uid>
+</InstancePath>
+<Position>0.046999999999999993 0.0053000000000000269 0.005499999999999991</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-1</Uid>
+</InstancePath>
+<Position>-0.0050999999999999934 0.029929999999999984 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 02-1</Uid>
+</InstancePath>
+<Position>0.014000000000000005 0.019000000000000017 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-1</Uid>
+</InstancePath>
+<Position>-0.011300000000000032 0.022300000000000014 -0.0061999999999999972</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 02-1</Uid>
+</InstancePath>
+<Position>0.045000000000000005 0.018999999999999961 0.011999999999999983</Position>
+<Axis>-1.0000000000000002 -1.4235574524734673e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-1</Uid>
+</InstancePath>
+<Position>-0.011300000000000032 0.018049999999999997 -0.0061999999999999972</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ARM 03-1</Uid>
+</InstancePath>
+<Position>0 0.027999999999999983 -0.021500000000000005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-2</Uid>
+</InstancePath>
+<Position>-0.0051000000000000073 0.026630000000000015 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 03-1</Uid>
+</InstancePath>
+<Position>0.0065000000000000058 0.034499999999999989 -0.012500000000000011</Position>
+<Axis>-1.3877787807814457e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-2</Uid>
+</InstancePath>
+<Position>-0.016300000000000009 0.01805000000000001 -0.0061999999999999833</Position>
+<Axis>-1 0 1.3530843112619095e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>GRIPPER ASSEMBLY-1</Uid>
+<Uid>GRIPPER BASE-1</Uid>
+</InstancePath>
+<Position>0.013000000000000012 -0.009000000000000008 -0.062999999999999987</Position>
+<Axis>1 -1.214306433183765e-16 1.9428902930940239e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-2</Uid>
+</InstancePath>
+<Position>-0.0051000000000000212 0.029930000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GRIPPER ASSEMBLY-1</Uid>
+<Uid>GRIPPER BASE-1</Uid>
+</InstancePath>
+<Position>0.0060000000000000192 0.0050000000000000044 -0.076999999999999985</Position>
+<Axis>-1 1.6306400674181987e-16 -2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-2</Uid>
+</InstancePath>
+<Position>-0.0051000000000000212 0.029930000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ARM 01-1</Uid>
+</InstancePath>
+<Position>0 0.021000000000000005 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-2</Uid>
+</InstancePath>
+<Position>-0.010249999999999995 0.047399999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 01-1</Uid>
+</InstancePath>
+<Position>0 0.021000000000000005 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-2</Uid>
+</InstancePath>
+<Position>-0.010249999999999995 0.047399999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ARM 01-1</Uid>
+</InstancePath>
+<Position>0 0.021000000000000019 -0.11999999999999994</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-4</Uid>
+</InstancePath>
+<Position>-0.010250000000000002 0.047400000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 01-1</Uid>
+</InstancePath>
+<Position>0 0.021000000000000005 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-4</Uid>
+</InstancePath>
+<Position>-0.010250000000000002 0.047400000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 02-1</Uid>
+</InstancePath>
+<Position>-0.045000000000000019 0.010500000000000009 0.010999999999999996</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MG996R-4</Uid>
+</InstancePath>
+<Position>-0.020500000000000015 0.036999999999999998 0.010249999999999981</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ARM 03-1</Uid>
+</InstancePath>
+<Position>-0.00500000000000006 0 0</Position>
+<Axis>1.4051260155412137e-16 1 -3.6082248300317588e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-1</Uid>
+</InstancePath>
+<Position>-0.0050999999999999934 0.029929999999999984 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 03-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.3877787807814457e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-1</Uid>
+</InstancePath>
+<Position>-0.0050999999999999934 0.029929999999999984 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ARM 03-1</Uid>
+</InstancePath>
+<Position>-0.01650000000000007 0.045999999999999999 -0.0035000000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO MOTOR MICRO 9G-2</Uid>
+</InstancePath>
+<Position>-0.011300000000000004 0.01805000000000001 -0.0061999999999999833</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="GRIPPER ASSEMBLY" uid="GRIPPER ASSEMBLY" version="183">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GRIPPER ASSEMBLY.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="ARM 01" uid="ARM 01*:*Default" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ARM 01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.064703469112063039</Mass>
+<CenterOfMass>-9.3653556020416237e-08 0.013167041372188876 -0.060151215381547676</CenterOfMass>
+<Inertia>0.00010578307240038689 0.00011077335260579961 9.4106172517753877e-06 -3.9316405413538114e-08 -7.1493285136071811e-11 -1.8296715628911179e-11</Inertia>
+</MassProperties>
+<GeometryFile name="ARM 01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.45490196078431372" g="0.22156862745098038" b="0.015686274509803921" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ARM 02" uid="ARM 02*:*Default" version="1141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ARM 02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046993616547275553</Mass>
+<CenterOfMass>0.0070713627185317283 -3.1500429670819127e-05 0.0057008941517400916</CenterOfMass>
+<Inertia>8.685441660039818e-06 5.1128275055988981e-05 5.4372377105270954e-05 -1.2357452471583473e-10 3.5077562955280451e-07 6.9142175271028584e-08</Inertia>
+</MassProperties>
+<GeometryFile name="ARM 02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ARM 03" uid="ARM 03*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ARM 03.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016365646690766063</Mass>
+<CenterOfMass>4.6138740105901048e-05 0.017770514339006407 -0.0053380183098133988</CenterOfMass>
+<Inertia>3.8778161754284931e-06 2.5732642677930241e-06 4.9738278916840547e-06 5.8186692968702799e-07 -4.0418102772331869e-09 1.1608563643994449e-08</Inertia>
+</MassProperties>
+<GeometryFile name="ARM 03_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BASE OF ROBOTIC ARM" uid="BASE OF ROBOTIC ARM*:*Default" version="156">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BASE OF ROBOTIC ARM.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.094696218084640543</Mass>
+<CenterOfMass>-1.7456511552121494e-08 0.022150554598922262 -0.00095288430341301193</CenterOfMass>
+<Inertia>0.00013505901166280872 0.00020565521532543116 0.00012855731766912677 -3.8501639264736496e-06 3.7463159181661426e-11 -1.8457955726920647e-12</Inertia>
+</MassProperties>
+<GeometryFile name="BASE OF ROBOTIC ARM_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEAR 1" uid="GEAR 1*:*Default" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEAR 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0025777842832670154</Mass>
+<CenterOfMass>0.0056185391797502282 0.00058485781799268372 0.002</CenterOfMass>
+<Inertia>8.9576090139517328e-08 3.6671259422294666e-07 4.4941459294041868e-07 0 0 8.4324596337830967e-09</Inertia>
+</MassProperties>
+<GeometryFile name="GEAR 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEAR 2" uid="GEAR 2*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEAR 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0026541564006757829</Mass>
+<CenterOfMass>0.005456868325013714 0.00056802880598276592 0.002</CenterOfMass>
+<Inertia>8.9796002882481183e-08 3.7010878090273044e-07 4.5282703338340957e-07 0 0 8.1887186242874217e-09</Inertia>
+</MassProperties>
+<GeometryFile name="GEAR 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GRIPPER BASE" uid="GRIPPER BASE*:*Default" version="237">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GRIPPER BASE.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016753705301542115</Mass>
+<CenterOfMass>0.019307476331426255 -0.0023275139021553116 -0.036780881449583858</CenterOfMass>
+<Inertia>7.1736518092661187e-06 9.5161337137600114e-06 3.8315393804195869e-06 -1.3138080175284473e-06 -1.9665293900181937e-06 -4.1408593125988022e-07</Inertia>
+</MassProperties>
+<GeometryFile name="GRIPPER BASE_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GRIPPER LINK" uid="GRIPPER LINK*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GRIPPER LINK.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00079876241318469106</Mass>
+<CenterOfMass>0.015500000000000007 0.002 0</CenterOfMass>
+<Inertia>3.6325042236300993e-09 1.0442422565960369e-07 1.0292175453779944e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="GRIPPER LINK_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GRIPPER" uid="GRIPPER*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GRIPPER.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0049358269555673066</Mass>
+<CenterOfMass>0.026316531893031604 0.0042500148977460701 -0.0036682632442668031</CenterOfMass>
+<Inertia>1.5085022300977279e-07 1.6253561382600424e-06 1.5339419220395635e-06 1.0989271814103267e-12 3.2752683889825439e-07 -1.6249342317557144e-12</Inertia>
+</MassProperties>
+<GeometryFile name="GRIPPER_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SERVO MOTOR MG996R" uid="SERVO MOTOR MG996R*:*Default" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SERVO MOTOR MG996R.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033865346177471639</Mass>
+<CenterOfMass>-0.0004964688624125535 0.02034739772553271 -2.6727439478848074e-09</CenterOfMass>
+<Inertia>5.8429763165417918e-06 6.0186860210755592e-06 9.5772193405682065e-06 1.2236288039469767e-12 3.4084674834229966e-13 2.7752386043759007e-07</Inertia>
+</MassProperties>
+<GeometryFile name="SERVO MOTOR MG996R_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SERVO MOTOR MICRO 9G" uid="SERVO MOTOR MICRO 9G*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SERVO MOTOR MICRO 9G.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0071312482179690584</Mass>
+<CenterOfMass>-0.00043117598091184329 0.012516505555099767 0</CenterOfMass>
+<Inertia>4.5882933536615806e-07 4.2779187635503531e-07 7.0857383623850377e-07 0 0 3.606047072875384e-08</Inertia>
+</MassProperties>
+<GeometryFile name="SERVO MOTOR MICRO 9G_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WAIST" uid="WAIST*:*Default" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WAIST.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0728265519338884</Mass>
+<CenterOfMass>0.001515507639120398 0.019241837455953162 0.0073145320918552061</CenterOfMass>
+<Inertia>4.9764460288638632e-05 5.9196667844640904e-05 6.6920494237310112e-05 -6.2985315862267134e-06 -3.371729641976536e-07 -6.7126967102683742e-06</Inertia>
+</MassProperties>
+<GeometryFile name="WAIST_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.45490196078431372" g="0.22156862745098038" b="0.015686274509803921" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/08/26||04:18:16" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="" uid="" version="110">
+<AssemblyFile name="" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ARM Assembly.stp-1" uid="ARM Assembly.stp-1" grounded="true" entityUid="ARM Assembly.stp" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="GRIPPER ASM.stp-1" uid="GRIPPER ASM.stp-1" grounded="true" entityUid="GRIPPER ASM.stp" rigid="true">
+<Transform>
+<Rotation>-0.087446660242092009 0.38145442106986488 0.92024214544801097 1.3200000000000002e-13 -0.9237809625064578 0.38292131477712532 0.99616920330459124 0.033485190112891923 0.080781559966364602</Rotation>
+<Translation>0.032501055156018997 0.28582609162892197 0.0092353648094140005</Translation>
+</Transform>
+<Instance name="gripper base.stp-1" uid="gripper base.stp-1" grounded="true" entityUid="gripper base.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021222122723332997 -0.0048300537929270582 -0.044099999999999973</Translation>
+</Transform>
+</Instance>
+<Instance name="RPi_Camera_V2.1.stp-1" uid="RPi_Camera_V2.1.stp-1" grounded="true" entityUid="RPi_Camera_V2.1.stp" rigid="true">
+<Transform>
+<Rotation>-0.99999999999999989 1.7898876825128696e-13 2.9976021664879227e-15 -1.7900958493299868e-13 -0.99999999999999989 9.8098612566488441e-16 2.9976021664879227e-15 1.0417014473240727e-15 0.99999999999999989</Rotation>
+<Translation>0.0077221227233439972 -0.036993802360690997 -0.0020000000000000018</Translation>
+</Transform>
+<Instance name="PCB.stp-1" uid="PCB.stp-1" grounded="true" entityUid="PCB.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Zif Connector.stp-1" uid="Zif Connector.stp-1" grounded="true" entityUid="Zif Connector.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Camera PCB connector.stp-1" uid="Camera PCB connector.stp-1" grounded="true" entityUid="Camera PCB connector.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Camera Lense.stp-1" uid="Camera Lense.stp-1" grounded="true" entityUid="Camera Lense.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="gripper face.stp-1" uid="gripper face.stp-1" grounded="true" entityUid="gripper face.stp*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 1.7898876825128696e-13 0 -1.7900958493299868e-13 -0.99999999999999989 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.0077221227233379985 -0.0048300537929270582 -0.0049999999999999767</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M2 x 6 - 4.8 - Z.stp-1" uid="ISO 7045 - M2 x 6 - 4.8 - Z.stp-1" grounded="true" entityUid="ISO 7045 - M2 x 6 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>-5.9952043329758453e-15 9.2995056100164675e-14 -0.99999999999999989 -9.7014410394002937e-16 -0.99999999999999989 -9.3001994994068582e-14 -0.99999999999999989 1.0039712117215771e-15 5.9952043329758453e-15</Rotation>
+<Translation>0.018222122723342997 -0.039493802360689001 -0.00099999999999997313</Translation>
+</Transform>
+</Instance>
+<Instance name="JIS B 1101 - M1 x 10.stp-2" uid="JIS B 1101 - M1 x 10.stp-2" grounded="true" entityUid="JIS B 1101 - M1 x 10.stp*:*Default">
+<Transform>
+<Rotation>1.0130785099704555e-15 -0.54292290075103422 -0.8397825455676502 -2.9759181230382134e-15 0.8397825455676502 -0.54292290075103422 1 3.0491476200876297e-15 -7.6492844979460869e-16</Rotation>
+<Translation>0.0077221227233329991 -0.013530053792926988 -0.014649999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M2 x 6 - 4.8 - Z.stp-3" uid="ISO 7045 - M2 x 6 - 4.8 - Z.stp-3" grounded="true" entityUid="ISO 7045 - M2 x 6 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>-2.9976021664879227e-15 -2.7991498008361759e-14 0.99999999999999989 -9.8098612566488441e-16 0.99999999999999978 2.8005375796169574e-14 -0.99999999999999989 -1.0473392986209973e-15 -2.9976021664879227e-15</Rotation>
+<Translation>-0.002777877276656 -0.039493802360693053 -0.0010000000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-1" uid="ISO 4032 - M3.stp-1" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 0.99999999999999989 0 0.99999999999999978 0 0</Rotation>
+<Translation>0.0077221227233329991 0.019333694774837956 -0.010399999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 8 - 4.8 - H.stp-2" uid="ISO 7045 - M3 x 8 - 4.8 - H.stp-2" grounded="true" entityUid="ISO 7045 - M3 x 8 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>0 1.7014167852380524e-14 0.99999999999999989 0 0.99999999999999989 -1.6993351170668802e-14 -0.99999999999999978 0 0</Rotation>
+<Translation>0.0077221227233419988 -0.02899380236069099 -0.0040000000000000036</Translation>
+</Transform>
+</Instance>
+<Instance name="JIS B 1101 - M1 x 10.stp-1" uid="JIS B 1101 - M1 x 10.stp-1" grounded="true" entityUid="JIS B 1101 - M1 x 10.stp*:*Default">
+<Transform>
+<Rotation>0 1.3003487175922146e-14 -0.99999999999999989 -1.0087417012805133e-15 1 1.2989609388114332e-14 0.99999999999999978 9.8879238130678004e-16 0</Rotation>
+<Translation>0.0077221227233329973 0.014069946207073969 -0.014649999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 8 - 4.8 - H.stp-1" uid="ISO 7045 - M3 x 8 - 4.8 - H.stp-1" grounded="true" entityUid="ISO 7045 - M3 x 8 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 -0.99999999999999989 0 -0.99999999999999978 0 0</Rotation>
+<Translation>0.0077221227233329956 0.019333694774837956 -0.0039999999999999758</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MICRO 9G.stp-1" uid="SERVO MOTOR MICRO 9G.stp-1" grounded="true" entityUid="SERVO MOTOR MICRO 9G.stp*:*Default">
+<Transform>
+<Rotation>1.0130785099704553e-15 0 0.99999999999999989 0.99999999999999989 -1.0087417012805133e-15 -9.9226182825873366e-16 9.6710833785706996e-16 0.99999999999999978 0</Rotation>
+<Translation>0.0077221227233329991 0.00026994620707304628 -0.030299999999999994</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-2" uid="ISO 4032 - M3.stp-2" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0 1.7014167852380524e-14 -0.99999999999999989 0 0.99999999999999989 1.6993351170668802e-14 0.99999999999999978 0 0</Rotation>
+<Translation>0.0077221227233420005 -0.02899380236069099 -0.010399999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M2.stp-1" uid="ISO 4032 - M2.stp-1" grounded="true" entityUid="ISO 4032 - M2.stp*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 0.99999999999999989 0 0.99999999999999978 0 0</Rotation>
+<Translation>0.018222122723343996 -0.039493802360689056 -0.0065999999999999948</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M2 x 6 - 4.8 - Z.stp-2" uid="ISO 7045 - M2 x 6 - 4.8 - Z.stp-2" grounded="true" entityUid="ISO 7045 - M2 x 6 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>-2.9976021664879227e-15 -6.098593852144063e-14 0.99999999999999989 -9.8098612566488441e-16 0.99999999999999978 6.1013694097056259e-14 -0.99999999999999989 -1.0377983195031248e-15 -2.9976021664879227e-15</Rotation>
+<Translation>0.018222122723341998 -0.026913802360689021 -0.0010000000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M2.stp-4" uid="ISO 4032 - M2.stp-4" grounded="true" entityUid="ISO 4032 - M2.stp*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 0.99999999999999989 0 0.99999999999999978 0 0</Rotation>
+<Translation>-0.0027778772766580014 -0.026913802360693018 -0.0065999999999999948</Translation>
+</Transform>
+</Instance>
+<Instance name="GRIPPER ASM-0.stp-1" uid="GRIPPER ASM-0.stp-1" grounded="true" entityUid="GRIPPER ASM-0.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M2.stp-3" uid="ISO 4032 - M2.stp-3" grounded="true" entityUid="ISO 4032 - M2.stp*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 0.99999999999999989 0 0.99999999999999978 0 0</Rotation>
+<Translation>-0.0027778772766560008 -0.039493802360692942 -0.0065999999999999948</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M2 x 6 - 4.8 - Z.stp-4" uid="ISO 7045 - M2 x 6 - 4.8 - Z.stp-4" grounded="true" entityUid="ISO 7045 - M2 x 6 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>-2.9976021664879227e-15 -1.2299189444675562e-13 0.99999999999999989 -9.8098612566488441e-16 0.99999999999999989 1.2301271112846734e-13 -0.99999999999999989 -1.0312931064682118e-15 -2.9976021664879227e-15</Rotation>
+<Translation>-0.0027778772766580014 -0.026913802360693018 -0.0010000000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M2.stp-2" uid="ISO 4032 - M2.stp-2" grounded="true" entityUid="ISO 4032 - M2.stp*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 0.99999999999999989 0 0.99999999999999978 0 0</Rotation>
+<Translation>0.018222122723341998 -0.026913802360689076 -0.0065999999999999948</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="WAIST.stp-1" uid="WAIST.stp-1" grounded="true" entityUid="WAIST.stp*:*Default">
+<Transform>
+<Rotation>0.99616920330459657 0 -0.087446660242031959 0 1 0 0.087446660242031959 0 0.99616920330459657</Rotation>
+<Translation>0 0.056000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ARM 01.stp-1" uid="ARM 01.stp-1" grounded="true" entityUid="ARM 01.stp*:*Default">
+<Transform>
+<Rotation>0.66504715335880094 -0.087446660242031793 0.74166391675870957 0.74451600621499292 -8.1401976723208312e-16 -0.66760461089605772 0.058379793585041986 0.99616920330459657 0.065105438240236374</Rotation>
+<Translation>0.015603570875141999 0.096277916069207006 -0.018707183254895999</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MG996R.stp-1" uid="SERVO MOTOR MG996R.stp-1" grounded="true" entityUid="SERVO MOTOR MG996R.stp*:*Default">
+<Transform>
+<Rotation>-0.70439799886616961 0.087446660242031987 0.70439799886559207 -0.70710678118625758 1.0245326946669236e-15 -0.70710678118683756 -0.061834126449282961 -0.99616920330459657 0.061834126449230802</Rotation>
+<Translation>0.0024021398262089998 0.089030071562047994 0.048796990455033003</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MG996R.stp-2" uid="SERVO MOTOR MG996R.stp-2" grounded="true" entityUid="SERVO MOTOR MG996R.stp*:*Default">
+<Transform>
+<Rotation>0.56051928967408216 0.087446660242027463 -0.82351151025093638 0.82667834693051923 -5.3345969323270388e-15 0.56267478237097512 0.049204030520747011 -0.99616920330459702 -0.072290260533477008</Rotation>
+<Translation>-0.073632127977300996 0.18486392243277 0.042122478975147003</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO MOTOR MICRO 9G.stp-1" uid="SERVO MOTOR MICRO 9G.stp-1" grounded="true" entityUid="SERVO MOTOR MICRO 9G.stp*:*Default">
+<Transform>
+<Rotation>-0.56051928967409925 -0.087446660242019733 -0.82351151025092539 -0.82667834693050835 1.6321229067152453e-14 0.56267478237099111 -0.04920403052073502 0.99616920330459757 -0.072290260533475828</Rotation>
+<Translation>-0.012309816402048999 0.26918511381969101 -0.00012693860854700001</Translation>
+</Transform>
+</Instance>
+<Instance name="link2.stp-1" uid="link2.stp-1" grounded="true" entityUid="link2.stp*:*Default">
+<Transform>
+<Rotation>0.56051928967409992 -0.82351151025091751 -0.087446660242089524 0.82667834693050779 0.56267478237099167 6.5322747211382648e-14 0.049204030520733986 -0.072290260533560954 0.99616920330459136</Rotation>
+<Translation>-0.056559373291102 0.20470420275910001 0.0020619706908300002</Translation>
+</Transform>
+</Instance>
+<Instance name="black servo extention.stp-1" uid="black servo extention.stp-1" grounded="true" entityUid="black servo extention.stp*:*Default">
+<Transform>
+<Rotation>0.74166391675853638 0.66504715335899378 -0.087446660242035623 -0.66760461089604128 0.7445160062150078 3.217773270058899e-12 0.065105438242381033 0.058379793582655978 0.99616920330459635</Rotation>
+<Translation>-0.073540593960627995 0.17061306941256399 -0.0054517639332979997</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-1" uid="ISO 4032 - M3.stp-1" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242022037 0.70202524604453087 -0.70676278589681862 -2.0000000000000009e-14 0.70948066207253691 0.70472490387747388 0.99616920330459746 0.061625839233479217 -0.062041714404527951</Rotation>
+<Translation>-0.079874990451455005 0.181230602805702 -0.014440118309328001</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-4" uid="ISO 4032 - M3.stp-4" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242036012 0.97961793293809518 -0.18083635441638246 -3.0000000000000006e-15 0.18153176570455404 0.98338508125768664 0.99616920330459624 0.085993741087828424 -0.015874346638700083</Rotation>
+<Translation>0.019878806352592999 0.091437782640211004 -0.0056834368660160003</Translation>
+</Transform>
+</Instance>
+<Instance name="black servo extention.stp-2" uid="black servo extention.stp-2" grounded="true" entityUid="black servo extention.stp*:*Default">
+<Transform>
+<Rotation>0.741663916758731 0.66504715335877707 -0.087446660242032251 -0.66760461089603396 0.74451600621501413 -3.2127078775090467e-15 0.065105438240236999 0.058379793585042007 0.99616920330459657</Rotation>
+<Translation>0.01545907605042 0.090500516105038994 0.002360888655513</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-2" uid="ISO 4032 - M3.stp-2" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242050001 0.36528869939815495 -0.92677788477310785 -1.0000000000000001e-15 0.93034183520099278 0.36669342736794291 0.99616920330459502 0.032066115556038263 -0.081355286371786129</Rotation>
+<Translation>-0.069120863658453005 0.17155033594770999 -0.013496089454845</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 12 - 4.8 - Z.stp-2" uid="ISO 7045 - M3 x 12 - 4.8 - Z.stp-2" grounded="true" entityUid="ISO 7045 - M3 x 12 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242043964 0.98465843672019582 -0.15099948545691355 -1.999999999999999e-15 -0.15158015822613496 -0.98844496843888074 -0.99616920330459546 0.086436211323032974 -0.013255178595834121</Rotation>
+<Translation>-0.070047798257019997 0.17155033594774399 -0.0029366958998009998</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-8" uid="ISO 4032 - M3.stp-8" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242031959 -3.0651758858337343e-15 0.99616920330459657 2.9999999999999987e-15 1 2.8136142894297257e-15 -0.99616920330459657 2.7424664370939015e-15 0.087446660242031959</Rotation>
+<Translation>-0.0087427876500549995 0.068523974907643004 0.022120210447899</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-3" uid="ISO 4032 - M3.stp-3" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242036997 0.16295460911388601 0.9827506687767017 -2.0000000000000002e-15 -0.98652986412009025 0.1635812556474501 0.99616920330459602 0.014304634484566403 0.086268741846332778</Rotation>
+<Translation>0.0091246795595919996 0.10111804949820299 -0.0066274657204999999</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-1" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-1" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242031959 0 -0.99616920330459657 0 1 0 0.99616920330459657 0 -0.087446660242031959</Rotation>
+<Translation>0.026712313508088 0.102465100404598 0.0063602674953270001</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-5" uid="ISO 4032 - M3.stp-5" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242031959 0 -0.99616920330459657 2.9999999999999987e-15 -1 2.6233998072609587e-16 -0.99616920330459657 -3.0114483650762441e-15 -0.087446660242031959</Rotation>
+<Translation>0.025068316295537001 0.102465100404598 0.025088248517466001</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-6" uid="ISO 4032 - M3.stp-6" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242031959 -3.0651758858337343e-15 0.99616920330459657 2.9999999999999987e-15 1 2.8136142894297257e-15 -0.99616920330459657 2.7424664370939015e-15 0.087446660242031959</Rotation>
+<Translation>0.018024336306871998 0.109536168216463 0.024469907252972999</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 12 - 4.8 - Z.stp-3" uid="ISO 7045 - M3 x 12 - 4.8 - Z.stp-3" grounded="true" entityUid="ISO 7045 - M3 x 12 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242049001 -0.64321548984656829 0.76067530210593182 8.9999999999999995e-15 0.76360050037939531 0.64568899310762373 -0.99616920330459502 -0.05646334600230625 0.06677431351734138</Rotation>
+<Translation>0.008197744961026 0.10111804949820299 0.0039319278345289997</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 12 - 4.8 - Z.stp-1" uid="ISO 7045 - M3 x 12 - 4.8 - Z.stp-1" grounded="true" entityUid="ISO 7045 - M3 x 12 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242037996 -0.80336077823244978 0.58903696115801263 2.3999999999999999e-14 0.59130211936285493 0.8064501247051773 -0.99616920330459602 -0.07052137005722868 0.051707395532339856</Rotation>
+<Translation>-0.080801925050018999 0.181230602805736 -0.0038807247543150001</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 12 - 4.8 - Z.stp-4" uid="ISO 7045 - M3 x 12 - 4.8 - Z.stp-4" grounded="true" entityUid="ISO 7045 - M3 x 12 - 4.8 - Z.stp*:*Default">
+<Transform>
+<Rotation>0.08744666024202799 -0.36446061853110695 -0.92710384485905251 1.1999999999999998e-14 -0.93066904877561574 0.36586216209262534 -0.99616920330459691 -0.031993424183938711 -0.081383900106048276</Rotation>
+<Translation>0.018951871754027998 0.091437782640211004 0.0048759566890120001</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-2" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-2" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242031959 0 -0.99616920330459657 0 1 0 0.99616920330459657 0 -0.087446660242031959</Rotation>
+<Translation>0.019668333519423001 0.109536168216463 0.005741926230834</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-3" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-3" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242031959 0 -0.99616920330459657 0 1 0 0.99616920330459657 0 -0.087446660242031959</Rotation>
+<Translation>-0.014142770426169 0.075595042719508995 0.0027738881612670001</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-4" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-4" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242031959 0 -0.99616920330459657 0 1 0 0.99616920330459657 0 -0.087446660242031959</Rotation>
+<Translation>-0.0070987904375039998 0.068523974907643004 0.0033922294257599998</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-7" uid="ISO 4032 - M3.stp-7" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242031959 -3.0651758858337343e-15 0.99616920330459657 2.9999999999999987e-15 1 2.8136142894297257e-15 -0.99616920330459657 2.7424664370939015e-15 0.087446660242031959</Rotation>
+<Translation>-0.015786767638721 0.075595042719508995 0.021501869183405999</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-6" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-6" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242084986 -0.58330430933656074 -0.80753276362133031 1.0586999999999998e-11 0.8106381535806968 -0.5855474224683076 0.99616920330459191 -0.051204166516764051 -0.070887599189266848</Rotation>
+<Translation>-0.060676930842357001 0.207517576670955 0.0017005193881620001</Translation>
+</Transform>
+</Instance>
+<Instance name="rack.stp-2" uid="rack.stp-2" grounded="true" entityUid="rack.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242024007 0.38145442106988914 0.92024214544800742 -3.3000000000000005e-14 -0.92378096250645425 0.38292131477713398 0.99616920330459724 0.033485190112714794 0.080781559966364408</Rotation>
+<Translation>0.027583834176439 0.29417071599356798 0.024457891477270999</Translation>
+</Transform>
+</Instance>
+<Instance name="gripper base fixation.stp-1" uid="gripper base fixation.stp-1" grounded="true" entityUid="gripper base fixation.stp*:*Default">
+<Transform>
+<Rotation>-0.54074307797090404 -0.83663014841629224 -0.087446660242032265 0.83984743318799204 -0.54282252068935133 -1.4779844015322396e-15 -0.047468016538443999 -0.073441853145134031 0.99616920330459635</Rotation>
+<Translation>-0.012042212567683 0.27340117338903802 0.029640495441035</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-8" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-8" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242093008 0.56273517875862678 -0.82199890523041486 4.500000000000001e-14 0.82515992514484571 0.56489919271933187 0.99616920330459124 0.049398547776723041 -0.072157479619557555</Rotation>
+<Translation>-0.087581856746719006 0.16783701601828399 -0.00066127407683399999</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-9" uid="ISO 4032 - M3.stp-9" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242082017 -0.98468772465847421 0.15080837682112655 -2.8000000000000007e-14 0.15138831467671102 0.98847436900475338 -0.99616920330459224 -0.086438782304369272 0.013238402518128176</Rotation>
+<Translation>-0.053823472971670998 0.20189082884724499 0.018162895405715002</Translation>
+</Transform>
+</Instance>
+<Instance name="pinion.stp-1" uid="pinion.stp-1" grounded="true" entityUid="pinion.stp*:*Default">
+<Transform>
+<Rotation>0.048294106282924971 0.38835817622374802 0.92024214544786953 -0.31595614945494183 -0.86806853318773414 0.38292131477746477 0.94754387282064145 -0.30924900751572365 0.080781559966367961</Rotation>
+<Translation>0.025760526623235001 0.29063580039437997 0.017791506020183999</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-5" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-5" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242090038 0.87756444965639402 0.47141671407765612 4.3400000000000013e-12 -0.47322956031313901 0.88093914843525545 0.99616920330459147 0.077035186409219858 0.041382344573408093</Rotation>
+<Translation>-0.052441815739846 0.20189082884724499 0.0024234219934979998</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-12" uid="ISO 4032 - M3.stp-12" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242071997 0.41472081899973612 -0.90573711633160736 -3.1e-14 -0.90922015389253519 -0.41631563957607282 -0.99616920330459302 0.036405412287497822 -0.079508265882672083</Rotation>
+<Translation>-0.088963513978543005 0.16783701601828399 0.015078199335383</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-11" uid="ISO 4032 - M3.stp-11" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242069013 0.69945057779976594 0.70931091266671042 -3.3800000000000007e-13 0.71203858773563089 -0.70214033467352399 -0.99616920330459324 0.061399827288208537 0.062265396461196776</Rotation>
+<Translation>-0.080728398876032004 0.16221026819457399 0.015801101940719001</Translation>
+</Transform>
+</Instance>
+<Instance name="rack.stp-1" uid="rack.stp-1" grounded="true" entityUid="rack.stp*:*Default">
+<Transform>
+<Rotation>0.08744666024202799 -0.38145442107003685 0.92024214544794569 3.4999999999999996e-14 0.92378096250639274 0.38292131477728225 -0.99616920330459691 -0.03348519011272745 0.080781559966363478</Rotation>
+<Translation>0.032179716554550999 0.28637489553302398 0.0090566187132820001</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 4032 - M3.stp-10" uid="ISO 4032 - M3.stp-10" grounded="true" entityUid="ISO 4032 - M3.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242075966 0.90651331851712702 0.41302140981258195 -2.9999999999999986e-14 0.414609695263082 -0.90999934098539559 -0.99616920330459269 0.079576403191650533 0.036256233154768579</Rotation>
+<Translation>-0.062058588074181999 0.207517576670955 0.01743999280038</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO 7045 - M3 x 20 - 4.8 - H.stp-7" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp-7" grounded="true" entityUid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default">
+<Transform>
+<Rotation>-0.087446660242088955 -0.19334504009688794 -0.97722606242488108 1.6499999999999993e-13 0.98098401273912783 -0.19408855388775192 0.99616920330459158 -0.016972395828861859 -0.085783775664887665</Rotation>
+<Translation>-0.079346741644208005 0.16221026819457399 6.1628528502000003e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="BS 4183 - M1.6 x 14.stp-1" uid="BS 4183 - M1.6 x 14.stp-1" grounded="true" entityUid="BS 4183 - M1.6 x 14.stp*:*Default">
+<Transform>
+<Rotation>-0.92024214544787475 -0.37336681299952562 0.11726728739111231 -0.38292131477745189 0.92090179444596099 -0.072877648667588307 -0.080781559966368988 -0.11196922763324796 -0.99042275399579427</Rotation>
+<Translation>0.034428105503080002 0.29213751332108701 0.017156345315663998</Translation>
+</Transform>
+</Instance>
+<Instance name="BS 4183 - M1.6 x 14.stp-2" uid="BS 4183 - M1.6 x 14.stp-2" grounded="true" entityUid="BS 4183 - M1.6 x 14.stp*:*Default">
+<Transform>
+<Rotation>0.087446660242031959 0.97028636989783501 0.22560461432115297 9.9999999999999968e-16 0.226472183212203 -0.97401763342924041 -0.99616920330459657 0.085174589060235034 0.019804236059627757</Rotation>
+<Translation>-0.012245963286048 0.27340117338903802 0.031961569684735</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="ARM Assembly.stp" uid="ARM Assembly.stp" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ARM Assembly.stp.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GRIPPER ASM.stp" uid="GRIPPER ASM.stp" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GRIPPER ASM.stp.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="RPi_Camera_V2.1.stp" uid="RPi_Camera_V2.1.stp" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="RPi_Camera_V2.1.stp.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="ARM 01.stp" uid="ARM 01.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ARM 01.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.064696630158493612</Mass>
+<CenterOfMass>-3.5508413385332709e-09 0.013167728301520458 -0.060152566826683122</CenterOfMass>
+<Inertia>0.00010576705484653686 0.00011075663759944271 9.4090952154685959e-06 -3.9338510426448798e-08 -1.8213128993112998e-10 -3.0851456702750362e-11</Inertia>
+</MassProperties>
+<GeometryFile name="ARM 01.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.41568627450980389" g="0.49019607843137253" b="0.81960784313725488" a="1"/>
+<Diffuse r="0.41568627450980389" g="0.49019607843137253" b="0.81960784313725488" a="1"/>
+<Specular r="0.20784313725490194" g="0.24509803921568626" b="0.40980392156862744" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BS 4183 - M1.6 x 14.stp" uid="BS 4183 - M1.6 x 14.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BS 4183 - M1.6 x 14.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.0337982492672906e-05</Mass>
+<CenterOfMass>0.0064481449128848851 -6.5900949567686474e-10 -2.4543861948700108e-08</CenterOfMass>
+<Inertia>1.2158506654027002e-11 5.6253947012874479e-10 5.6313748580203106e-10 1.2682203506883078e-15 -4.2112001092784047e-15 -3.9490773647820901e-15</Inertia>
+</MassProperties>
+<GeometryFile name="BS 4183 - M1.6 x 14.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Specular r="0.37254901960784315" g="0.36862745098039218" b="0.36470588235294116" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Camera Lense.stp" uid="Camera Lense.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Camera Lense.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00026427956217937778</Mass>
+<CenterOfMass>0 0.0024000000000000002 0.0035084052231419091</CenterOfMass>
+<Inertia>1.6784440502206259e-09 1.6784440502206261e-09 2.3815624949377388e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Camera Lense.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Camera PCB connector.stp" uid="Camera PCB connector.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Camera PCB connector.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.6261488127129276e-05</Mass>
+<CenterOfMass>0.0012916709783946233 -0.0068774874796017132 0.0018509606895730241</CenterOfMass>
+<Inertia>1.2934091211740665e-10 2.2442441458066421e-10 3.3393526036557585e-10 -1.0236782890609407e-11 2.8222402653335872e-12 1.4007385084831482e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Camera PCB connector.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.24705882352941178" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Diffuse r="0.24705882352941178" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Specular r="0.12352941176470589" g="0.12352941176470589" b="0.12352941176470589" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GRIPPER ASM-0.stp" uid="GRIPPER ASM-0.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GRIPPER ASM-0.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="GRIPPER ASM-0.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ISO 4032 - M2.stp" uid="ISO 4032 - M2.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ISO 4032 - M2.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6771295798268853e-05</Mass>
+<CenterOfMass>0.0008000007738901059 9.3558065296696119e-10 5.4015774164676118e-10</CenterOfMass>
+<Inertia>3.9934258029509023e-11 2.2921989901695806e-11 2.2922027478316611e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ISO 4032 - M2.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Specular r="0.37254901960784315" g="0.36862745098039218" b="0.36470588235294116" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ISO 4032 - M3.stp" uid="ISO 4032 - M3.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ISO 4032 - M3.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.7588204583675425e-05</Mass>
+<CenterOfMass>0.001200001072596194 1.1785806988746645e-09 6.8045388226543861e-10</CenterOfMass>
+<Inertia>2.2829014001771844e-10 1.3428256735044416e-10 1.3428276123794182e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ISO 4032 - M3.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Specular r="0.37254901960784315" g="0.36862745098039218" b="0.36470588235294116" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ISO 7045 - M2 x 6 - 4.8 - Z.stp" uid="ISO 7045 - M2 x 6 - 4.8 - Z.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ISO 7045 - M2 x 6 - 4.8 - Z.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.2878952343511274e-05</Mass>
+<CenterOfMass>0.0014075781467104832 2.0976557964390299e-09 2.0969894273155047e-08</CenterOfMass>
+<Inertia>3.6138804912925546e-11 1.8076123722369137e-10 1.8075847790203642e-10 0 1.3676794490422271e-15 0</Inertia>
+</MassProperties>
+<GeometryFile name="ISO 7045 - M2 x 6 - 4.8 - Z.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Diffuse r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Specular r="0.15098039215686274" g="0.15294117647058825" b="0.14509803921568626" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ISO 7045 - M3 x 12 - 4.8 - Z.stp" uid="ISO 7045 - M3 x 12 - 4.8 - Z.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ISO 7045 - M3 x 12 - 4.8 - Z.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00012865611657015359</Mass>
+<CenterOfMass>0.0035744082962617281 5.0922312162182179e-09 1.7886934842219658e-08</CenterOfMass>
+<Inertia>2.5790041707442298e-10 2.5558179265837201e-09 2.5558072876914487e-09 -1.6341414704373312e-15 9.9289324956875859e-15 2.838329943457667e-15</Inertia>
+</MassProperties>
+<GeometryFile name="ISO 7045 - M3 x 12 - 4.8 - Z.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Diffuse r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Specular r="0.15098039215686274" g="0.15294117647058825" b="0.14509803921568626" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ISO 7045 - M3 x 20 - 4.8 - H.stp" uid="ISO 7045 - M3 x 20 - 4.8 - H.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ISO 7045 - M3 x 20 - 4.8 - H.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00018489913007638882</Mass>
+<CenterOfMass>0.0073653479750788106 5.4385494487988653e-09 1.9085238203463758e-08</CenterOfMass>
+<Inertia>3.2117126968224277e-10 8.8727915219896279e-09 8.8727754336730096e-09 -2.4943286007166674e-15 2.5761579590824322e-14 7.3582943702689013e-15</Inertia>
+</MassProperties>
+<GeometryFile name="ISO 7045 - M3 x 20 - 4.8 - H.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Diffuse r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Specular r="0.15098039215686274" g="0.15294117647058825" b="0.14509803921568626" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ISO 7045 - M3 x 8 - 4.8 - H.stp" uid="ISO 7045 - M3 x 8 - 4.8 - H.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ISO 7045 - M3 x 8 - 4.8 - H.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010007733825580994</Mass>
+<CenterOfMass>0.0017914728859950819 4.787302000695575e-09 1.684005474401477e-08</CenterOfMass>
+<Inertia>2.2574762007245546e-10 1.0290097890448118e-09 1.0290018788493388e-09 -1.2026554844831497e-15 4.953291767960827e-15 1.4165004392697222e-15</Inertia>
+</MassProperties>
+<GeometryFile name="ISO 7045 - M3 x 8 - 4.8 - H.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Diffuse r="0.30196078431372547" g="0.30588235294117649" b="0.29019607843137252" a="1"/>
+<Specular r="0.15098039215686274" g="0.15294117647058825" b="0.14509803921568626" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JIS B 1101 - M1 x 10.stp" uid="JIS B 1101 - M1 x 10.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JIS B 1101 - M1 x 10.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.6237653448191893e-06</Mass>
+<CenterOfMass>0.0042611328284888686 6.3298025091741671e-12 0</CenterOfMass>
+<Inertia>1.5945379436551842e-12 9.8402425072470316e-11 9.8445749510432129e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="JIS B 1101 - M1 x 10.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Specular r="0.37254901960784315" g="0.36862745098039218" b="0.36470588235294116" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PCB.stp" uid="PCB.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PCB.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00063389327221698166</Mass>
+<CenterOfMass>6.9193731004148272e-05 -0.00014599173492498618 0.00040311051885573445</CenterOfMass>
+<Inertia>2.8852471702497029e-08 3.1596807188156467e-08 6.0199940220231707e-08 -1.6509527227036439e-10 4.8384016457343983e-11 -2.2633886890476406e-10</Inertia>
+</MassProperties>
+<GeometryFile name="PCB.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.24705882352941178" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Diffuse r="0.24705882352941178" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Specular r="0.12352941176470589" g="0.12352941176470589" b="0.12352941176470589" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SERVO MOTOR MG996R.stp" uid="SERVO MOTOR MG996R.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SERVO MOTOR MG996R.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033150006659972066</Mass>
+<CenterOfMass>-0.00028600049780489145 0.019787369456131396 -2.9304058818872889e-09</CenterOfMass>
+<Inertia>5.3305388657718629e-06 5.9092800213660205e-06 8.9952625382619021e-06 1.3687986342052013e-12 6.3446271587613843e-13 9.2543767780282304e-08</Inertia>
+</MassProperties>
+<GeometryFile name="SERVO MOTOR MG996R.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SERVO MOTOR MICRO 9G.stp" uid="SERVO MOTOR MICRO 9G.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SERVO MOTOR MICRO 9G.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0070948065582395279</Mass>
+<CenterOfMass>-0.00040719510210365719 0.012445031844005066 0</CenterOfMass>
+<Inertia>4.5140563234075799e-07 4.2689812585141573e-07 7.0035170081325827e-07 0 0 3.3680786183762223e-08</Inertia>
+</MassProperties>
+<GeometryFile name="SERVO MOTOR MICRO 9G.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WAIST.stp" uid="WAIST.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WAIST.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.072685755404739899</Mass>
+<CenterOfMass>0.001505724921234684 0.019213868559747879 0.0073108543902886108</CenterOfMass>
+<Inertia>4.9684880575173984e-05 5.9147997159312093e-05 6.6798835534964384e-05 -6.2944081725276649e-06 -3.360732556088284e-07 -6.6614130983566722e-06</Inertia>
+</MassProperties>
+<GeometryFile name="WAIST.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Zif Connector.stp" uid="Zif Connector.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Zif Connector.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00020206898500485155</Mass>
+<CenterOfMass>0 0.0090346997276869109 -0.0012911182334583785</CenterOfMass>
+<Inertia>6.7623727941203445e-10 9.1328077506998549e-09 9.5581142929589281e-09 1.3170229464074013e-11 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Zif Connector.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="black servo extention.stp" uid="black servo extention.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="black servo extention.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00073089153085766545</Mass>
+<CenterOfMass>-0.0051214983120185797 0.00316751293012156 0.0011000000000000001</CenterOfMass>
+<Inertia>2.1279738453014888e-08 1.9644951810857182e-08 4.0335104428980217e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="black servo extention.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gripper base fixation.stp" uid="gripper base fixation.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="gripper base fixation.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.650972631827845e-05</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>4.336503702567979e-10 4.336503702567979e-10 8.0296092296807681e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="gripper base fixation.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gripper base.stp" uid="gripper base.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="gripper base.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0077463471949790101</Mass>
+<CenterOfMass>-0.011177660514572 0.00051686101110456168 0.0350762731731942</CenterOfMass>
+<Inertia>1.6740412598112655e-06 1.9534611875374157e-06 2.7765304884261923e-06 -8.3375568126604055e-09 2.426522440015812e-07 9.3221960312678162e-09</Inertia>
+</MassProperties>
+<GeometryFile name="gripper base.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gripper face.stp" uid="gripper face.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="gripper face.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011075623501064924</Mass>
+<CenterOfMass>-3.2465315690417187e-06 0.0020014257397039012 0.0034016547338660084</CenterOfMass>
+<Inertia>2.5887678196614869e-06 2.5400263258332173e-06 4.9476937510443531e-06 4.295678333935786e-08 -6.8377910860924485e-11 1.0258702688488265e-09</Inertia>
+</MassProperties>
+<GeometryFile name="gripper face.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="link2.stp" uid="link2.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="link2.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.039825676534481755</Mass>
+<CenterOfMass>0.0086781829921110474 -5.1824324024899033e-07 0.01021834788740043</CenterOfMass>
+<Inertia>6.4555427570598262e-06 6.455855928786762e-05 6.8412318320802573e-05 8.2196481854923735e-11 -6.1337383940009813e-06 3.6942235489791728e-10</Inertia>
+</MassProperties>
+<GeometryFile name="link2.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.45490196078431372" g="0.22156862745098038" b="0.015686274509803921" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pinion.stp" uid="pinion.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pinion.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013799269085976974</Mass>
+<CenterOfMass>-0.00065772979628832783 0.002258955540910781 0.0043630718564139359</CenterOfMass>
+<Inertia>3.0394722256458911e-08 3.0394722112152588e-08 4.3342160267613697e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pinion.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rack.stp" uid="rack.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rack.stp.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012341213107467856</Mass>
+<CenterOfMass>0.014693801622653303 0.0082083005069898077 0.021096360533875834</CenterOfMass>
+<Inertia>4.8459771235854141e-06 4.2979834337136571e-06 3.800056595823466e-06 7.2113836654776542e-07 -1.1936586746035645e-06 6.0125834028008842e-07</Inertia>
+</MassProperties>
+<GeometryFile name="rack.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
